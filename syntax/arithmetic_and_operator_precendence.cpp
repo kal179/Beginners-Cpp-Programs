@@ -28,12 +28,13 @@ int main(void) {
 	// An expression is executed as per rules of maths
 	// multiplication , division first then addition, subtraction
 	// this is called as operator precendence
-	// to avoid unwanted results from program we should use '()' brackets for priority operations
+	// to avoid unwanted results from program we should use '()' brackets called parentheses
+	// for priority operations
 	// e.g.
 	int exp_1 = 5 + 4 * 2;
 	int exp_2 = (5 + 4) * 2;
 	cout << "Expected result: " << 18 << "\n";
-	cout << "Result of expression without brackets: " << exp_1 << "\n";
-	cout << "Result of expression with brackets: " << exp_2 << "\n";
+	cout << "Result of expression without parentheses: " << exp_1 << "\n";
+	cout << "Result of expression with parentheses: " << exp_2 << "\n";
 	return 0;
 }
