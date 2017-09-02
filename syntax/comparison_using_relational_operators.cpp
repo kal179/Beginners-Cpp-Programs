@@ -12,6 +12,7 @@ using namespace std;
 // <= is used to check if value on right is less than equal to left one 
 // >= is used to check if value on right is greater than equal to left one 
 //
+// Comparators can be used to compare integers, floats/doubles, chars, strings
 // The comparison either results in true or false 
 // true and false are boolean datatypes
 // used to determine the condition/state or result of comparison  
