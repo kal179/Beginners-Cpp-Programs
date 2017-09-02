@@ -10,7 +10,7 @@ using namespace std;
 //		instructions/statements	
 // } while (condition);
 
-// Using while loop we'll make an number guessing game 
+// Using do while loop we'll make an number guessing game 
 // This is bit different than normal number guessing game
 int main() {
 	unsigned int guess, rand_num;
