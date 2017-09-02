@@ -2,15 +2,18 @@
 #include <string>
 using namespace std;
 
-/*
-	Variables are used to store values in computer memory(primary)
-	So they can be accessed later!
-	Various data types are used to store different values 
-	Variable name starts with letters (A-Z or a-z) or an underscore(_)
-	followed by additional letters or numbers!
-	They cannot start with numbers or special chars
-	ref: http://www.cplusplus.com/doc/tutorial/variables/
-*/
+// Variables:
+//     Variables are slots in memory to store values,
+// 	Variables are used to store values in computer memory(primary),
+//	So they can be accessed later!,
+//	Various data types are used to store different values ,
+//	Variable name starts with letters (A-Z or a-z) or an underscore(_),
+//	followed by additional letters or numbers!,
+//	They cannot start with numbers or special chars,
+//	ref: http://www.cplusplus.com/doc/tutorial/variables/,
+	
+//	Note: variables can be re-assigned, their values are changed to new ones you assign
+
 
 int main(void){
 	int age; // declaring the datatype of variables
