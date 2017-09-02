@@ -13,8 +13,11 @@ using namespace std;
 */
 
 int main(void){
-	int age;
-	age = 15;
+	int age; // declaring the datatype of variables
+	age = 15; // assigning value to variables
+	
+	// Datatype of variables having same datatype value can be declared simultaneously
+	// like, signed short int age, fav_number, birth-month;
 	
 	signed short int fav_number_w;
 	fav_number_w = 19;
