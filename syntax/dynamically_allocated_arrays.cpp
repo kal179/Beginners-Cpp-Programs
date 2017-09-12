@@ -35,7 +35,7 @@ int main(void) {
 	cout << "\n";
 	for (int i = 0; i < iteration; i++){
 		int tmp;
-		cout << "Enter any 64-bit or less integer: ";
+		cout << "Enter an integer for constructing our array: ";
 		cin >> tmp;
 		arr_ptr[i] = tmp;
 	}
