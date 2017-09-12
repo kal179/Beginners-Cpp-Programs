@@ -23,7 +23,7 @@ int main(void) {
 	// good practise is first example
 	
 	cout << "Pointer value of variable which is int: " << age_ptr << endl;
-	cout << "Pointer value of variable which is char: " << *initial_ptr << endl;
+	cout << "Pointer value of variable which is char: " << initial_ptr << endl;
 	cout << "Pointer value of variable which is float: " << pi_ptr << endl;
 	cout << "Pointer value of variable which is string: " << lang_ptr << endl;
 	return 0;
