@@ -6,6 +6,8 @@
 // someone already written this function so we don't have to write it again
 // used to generate random numbers
 // modulo operator % is used to generate random numbers within a specific range
+// it generates pesudo random numbers
+// each time you run the program it'll generate same numbers
 
 int main(void) {
 	int n;    // times the loop should print random numbers 
