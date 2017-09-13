@@ -11,7 +11,7 @@ using namespace std;
 // and has attributes(universal parameters within class) or properties of object 
 // and has a name!
 // Once class is written
-// Multiple objects can be created, using the class(blueprint), each object is known
+// As many objects can be created, using the class(blueprint) as you want, each object is known
 // as instance of class 
 // Similarly like using a blueprint of building can be used to create many 
 // different buildings!
