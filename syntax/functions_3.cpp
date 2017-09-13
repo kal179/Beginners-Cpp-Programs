@@ -6,6 +6,7 @@ using namespace std;
 // This technique lets us write multiple functions by same name 
 // It is helpful when we need the same function to take different datatypes as its input
 // The functions must have same parameters, but, datatypes can differ 
+// Function cannot be overloaded if it differs only by return type
 // E.g.
 
 // If first argument is array of integers
