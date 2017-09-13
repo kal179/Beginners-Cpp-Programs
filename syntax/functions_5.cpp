@@ -11,6 +11,8 @@ using namespace std;
 // In function '*' operator before parameter name is used to declare
 // that the function is going to take pointer 
 // This is known as Pass-by-Reference arguments
+// Used mostly when you need to modify orignal value of variable
+// otherwise passing by value is faster and safer
 // E.g.
 
 // using * operator to tell the function that its argument will be a pointer 
