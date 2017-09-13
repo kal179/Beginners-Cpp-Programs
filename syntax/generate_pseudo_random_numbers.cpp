@@ -8,6 +8,7 @@
 // modulo operator % is used to generate random numbers within a specific range
 // it generates pesudo random numbers
 // each time you run the program it'll generate same numbers
+// Howerever, srand() function can be used to generate random numbers really to some extent!
 
 int main(void) {
 	int n;    // times the loop should print random numbers 
