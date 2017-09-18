@@ -11,12 +11,14 @@ using namespace std;
 // there is no need to call 'em.
 // Name of constructor is identical to that of class.
 // Constructor does not have a return type, not void even!
+// constructor can take as many parameters as you like!
 
 
 // Example
 class Construct_Playground {
 		public:
 			// Following method is a constructor 
+			// constructor can take as many parameters as you like!
 			Construct_Playground(double length_, double breadth_) {
 				set_len(length_);  // this can be done like this length = length_; 
 				set_breadth(breadth_);  // this can be done like this breadth = breadth_; 
