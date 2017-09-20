@@ -11,7 +11,7 @@ using namespace std;
 // floats(decimal-point numbers)
 //
 
-int sum(int arr[],int size) {
+int sum(const int arr[],const int size) {
 	long long unsigned int res;
 	res = 0;
 	for (int i = 0; i < size; i++) {
@@ -20,7 +20,7 @@ int sum(int arr[],int size) {
 	return res;
 }
 
-double sum(double arr[],double size) {
+double sum(const double arr[],const double size) {
 	double res;
 	res = 0.0;
 	for (int i = 0; i < size; i++) {
